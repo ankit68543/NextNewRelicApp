@@ -1,12 +1,16 @@
 import { ReactNode } from 'react';
+import NewRelicInit from './Utils/NewRelicInit';
 
-const Layout = ({ children }: { children: ReactNode }) => {
+const Layout = ({ children }: { children: ReactNode }) => {  
   return (
     <html>
       <head>
         <title>My Next.js App</title>
+        
       </head>
       <body>
+        {/* Initialize New Relic Browser Agent */}
+        <NewRelicInit />
         <header>
           <nav>
             <a href="/server/page1">Server Page 1</a>

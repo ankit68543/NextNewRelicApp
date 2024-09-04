@@ -6,6 +6,3 @@ WORKDIR /app
 
 # Copy the entire application code into the working directory
 COPY . .
-
-# Set the environment variable for New Relic
-ENV NODE_OPTIONS='-r @newrelic/next'

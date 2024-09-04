@@ -18,7 +18,7 @@ services:
     ports:
       - '3000:3000'
     environment:
-      NEW_RELIC_LICENSE_KEY: 'YOUR_KEY_:)'
+      NEW_RELIC_LICENSE_KEY: 'sdfasdfasdfsdfasdfasdf'
       NEW_RELIC_APP_NAME: 'React_next_app_1'
       NODE_OPTIONS: '-r @newrelic/next'
     volumes:
