@@ -9,12 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@newrelic/browser-agent": "^1.264.0",
-    "@newrelic/next": "^0.10.0",
     "newrelic": "^12.3.0",
     "next": "14.2.7",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "pino": "^8.19.0"
   },
   "devDependencies": {
     "@types/node": "^20",

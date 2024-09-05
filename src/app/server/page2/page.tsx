@@ -1,4 +1,4 @@
-import { Suspense } from 'react';
+import  logger  from '../../Utils/logger'
 
 // Simulate a server-side fetch function
 const fetchServerData = async () => {
@@ -8,6 +8,7 @@ const fetchServerData = async () => {
 
 // Server-side component
 const ServerPage2 = async () => {
+  //logger.info('rendering ServerPage2 page')
   const data = await fetchServerData();
   
   return (

@@ -1,4 +1,6 @@
+import  logger  from '../../Utils/logger'
 const ClientPage1 = () => {
+  //logger.info('rendering ClientPage2 page')
     return (
       <div>
         <h1>Client-Side Page 1</h1>

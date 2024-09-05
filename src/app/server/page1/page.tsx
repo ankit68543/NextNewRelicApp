@@ -1,5 +1,4 @@
-import { Suspense } from 'react';
-
+import  logger  from '../../Utils/logger'
 // Simulate a server-side fetch function
 const fetchServerData = async () => {
   const response = await fetch('https://api.coindesk.com/v1/bpi/currentprice.json');
@@ -8,6 +7,7 @@ const fetchServerData = async () => {
 
 // Server-side component
 const ServerPage1 = async () => {
+  //logger.info('rendering ServerPage1 page')
   const data = await fetchServerData();
   
   return (
